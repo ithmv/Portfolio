@@ -38,12 +38,11 @@
 
         img {
             width: 50%;
-            height: 50%;
+            height: auto;
             border-radius: 15px;
 
             @media (max-width: 1250px) {
-              max-width: 100%;
-              height: auto !important;
+              width: 100%;
             }
         }
 
