@@ -28,21 +28,26 @@
         margin-top: 70px;
         max-width: 70%;
 
-        img {
-            width: 50%;
-            border-radius: 15px;
-
-            @media (max-width: 1250px) {
-                width: 100%;
-            }
-        }
-
         @media (max-width: 1250px) {
             flex-direction: column;
             justify-content: flex-start;
             gap: 0;
-            max-width: 90%;
+            min-width: 100%;
+
         }
+
+        img {
+            width: 50%;
+            height: 50%;
+            border-radius: 15px;
+
+            @media (max-width: 1250px) {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+
 
     }
 </style>

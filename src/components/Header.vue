@@ -53,8 +53,11 @@
     }
 
     @media (max-width: 550px) {
-      gap: 12px;
       font-size: 14px;
+      display: flex;
+      gap: 0;
+      padding: 10px 0;
+      justify-content: space-evenly;
     }
   }
   .openNav {
