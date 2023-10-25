@@ -54,6 +54,10 @@
       h2 {
         margin: 0;
         width: 60%;
+
+        @media (max-width: 550px) {
+          font-size: 16px;
+        }
       }
     }
 
@@ -106,7 +110,7 @@
         flex-direction: column;
         display: flex;
         align-items: center;
-        max-width: 90%;
+        width: 100%;
       }
     }
 
@@ -129,7 +133,7 @@
     }
 
     @media (max-width: 1250px) {
-      min-width: 90%;
+      min-width: 100%;
     }
   }
 </style>
