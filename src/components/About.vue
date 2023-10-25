@@ -43,7 +43,7 @@
 
             @media (max-width: 1250px) {
                 width: 100%;
-                height: 100%;
+                height: auto;
             }
         }
 
