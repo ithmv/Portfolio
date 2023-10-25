@@ -16,7 +16,7 @@
 
 <style scoped lang="scss">
   .container {
-    width: 100vw;
+    max-width: 100vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -25,6 +25,10 @@
     text-align: center;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    @media (max-width: 550px) {
+        font-size: 12px;
+        gap: 10px;
+      }
   }
 </style>
 
