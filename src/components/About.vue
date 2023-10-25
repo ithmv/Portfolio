@@ -30,7 +30,6 @@
 
         img {
             width: 50%;
-            height: 50%;
             border-radius: 15px;
 
             @media (max-width: 1250px) {
