@@ -49,7 +49,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      align-items: stretch;
+      align-items: center;
 
       h2 {
         margin: 0;
