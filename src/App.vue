@@ -6,6 +6,7 @@
     <Education v-for="item in data" :key="item.id" :data="item" />
     <h1>Деятельность</h1>
     <WorkExperience v-for="item in data" :key="item.id" :data="item"/>
+    <h1>Контакты</h1>
     <Contacts />
   </section>
 </template>
@@ -54,8 +55,8 @@ export default defineComponent({
       align-items: center;
       gap: 20px;
       padding: 0 30px;
-      transform: translateY(-1000%);
-      animation: slideIn 1.8s forwards;
+      opacity: 0;
+      animation: slideIn 2s forwards;
     }
   }
 
@@ -66,7 +67,7 @@ export default defineComponent({
 
   @keyframes slideIn {
     to {
-      transform: translateY(0);
+      opacity: 1;
     }
   }
 

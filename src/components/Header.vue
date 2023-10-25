@@ -41,7 +41,7 @@
     z-index: 10;
     background-color: #fff;
     transform: translateY(-100%);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease;
 
     a {
       text-decoration: none;

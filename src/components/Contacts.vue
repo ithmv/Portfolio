@@ -16,13 +16,15 @@
 
 <style scoped lang="scss">
   .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 20px;
     text-align: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 </style>
 

@@ -30,12 +30,14 @@
     align-items: center;
 
     @media (max-width: 1250px) {
-        width: 90%;
+        width: 100%;
       }
 
     p {
       margin: 0;
-      font-size: 12px;
+      @media (max-width: 550px) {
+        font-size: 12px;
+      }
     }
 
     section {
