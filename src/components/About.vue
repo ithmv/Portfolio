@@ -37,12 +37,12 @@
         }
 
         img {
-            width: 50%;
+            max-width: 50%;
             height: auto;
             border-radius: 15px;
 
             @media (max-width: 1250px) {
-              width: 100%;
+              max-width: 100%;
             }
         }
 
