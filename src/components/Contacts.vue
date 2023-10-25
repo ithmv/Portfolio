@@ -16,18 +16,24 @@
 
 <style scoped lang="scss">
   .container {
+    display: flex;
+    gap: 10px;
     max-width: 100vw;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 20px;
     text-align: center;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: black;
+      margin: 0;
+      padding: 0;
+    }
     @media (max-width: 550px) {
         font-size: 12px;
         gap: 10px;
+        width: 100%;
       }
   }
 </style>
