@@ -53,6 +53,7 @@
 
       h2 {
         margin: 0;
+        width: 60%;
       }
     }
 
@@ -117,6 +118,7 @@
         font-size: medium;
         cursor: pointer;
         border-radius: 8px;
+        width: 40%;
 
         &:hover {
           background: rgb(53, 31, 250);
