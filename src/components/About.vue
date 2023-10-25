@@ -42,7 +42,7 @@
             border-radius: 15px;
 
             @media (max-width: 1250px) {
-              max-width: 100%;
+              max-width: 80vw;
             }
         }
 
